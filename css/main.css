@@ -10,17 +10,35 @@ html{
 	-ms-text-size-adjust:100%;
 	-webtext-text-size-adjust:100%
 	font-family: sans-serif,
-	
-}
 
+*, *::before, *::after{ 
+	box-sizing: inherit;
+}	
+}
+.masthead{
+	background-color:;
+}
+p{
+	margin: 0;
+}
+h3{
+	margin: 0;
+}
+.unit1{
+background-color: lightblue;
+}
+.unit2{
+	background-color: grey;
+}
+.unit3{
+	background-color: skyblue;
+}
+.unit4{
+	background-color: grey;
+}
 .light-grey{
 	background: #999;
 }
 .grey{
 	background-color: #666;
-}
-
-
-*, *::before, *::after{ 
-	box-sizing: inherit;
 }
