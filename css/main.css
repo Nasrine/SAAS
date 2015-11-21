@@ -18,6 +18,9 @@ html{
 .masthead{
 	background-color:;
 }
+.i--logo {
+	background-image: url("../images/logo.svg");
+}
 p{
 	margin: 0;
 }
@@ -42,3 +45,23 @@ background-color: lightblue;
 .grey{
 	background-color: #666;
 }
+.i--facebook {
+  background-image: url("../images/facebook.svg");
+}
+.i--linkdin {
+  background-image: url("../images/linkdin.svg");
+}
+
+.i--email {
+  background-image: url("../images/e.svg");
+}
+
+
+
+
+
+
+
+
+
+
