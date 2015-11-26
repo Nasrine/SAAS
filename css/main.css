@@ -19,25 +19,33 @@ html{
 	background-color:;
 }
 .i--logo {
-	background-image: url("../images/logo.svg");
+	background-image: url("../images/logo.png");
 }
 p{
 	margin: 0;
 }
-h3{
+h2{
 	margin: 0;
+	background-color: #006799;
+	color: white; 
+}
+h3{
+	color: #006799;
 }
 .unit1{
-background-color: lightblue;
+background-color: #006799;
+color: white;
 }
 .unit2{
-	background-color: grey;
+	background-color: gray;
+	
 }
 .unit3{
-	background-color: skyblue;
+	background-color: white;
 }
 .unit4{
-	background-color: grey;
+	background-color: gray;
+
 }
 .light-grey{
 	background: #999;
@@ -47,21 +55,33 @@ background-color: lightblue;
 }
 .i--facebook {
   background-image: url("../images/facebook.svg");
+  margin: 0.25em 0em 0em 1.4em;
 }
 .i--linkdin {
   background-image: url("../images/linkdin.svg");
+  margin-top: 0.25em;
 }
 
 .i--email {
   background-image: url("../images/e.svg");
+  margin-top: 0.25em;
+}
+
+.logo {
+	height: 2em;
 }
 
 
+.contact a,
+.contact li {
+	text-decoration: none;
+	list-style: none;
+}
+.sign-up {
+	font-size: 3em;
 
 
 
-
-
-
+}
 
 
