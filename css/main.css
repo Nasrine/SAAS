@@ -13,8 +13,31 @@ html{
 
 *, *::before, *::after{ 
 	box-sizing: inherit;
-}	
 }
+body{
+	margin:0;
+	padding:0;
+}
+.flex {
+	display: block;
+	width: 100%;
+}
+.section-dark{
+	background-color: #ccc;
+}
+a {
+	color: blue;
+}
+@media only screen and (min-width: 25em){
+
+}
+@media only screen and (min-width: 38em){
+	
+}		
+@media only screen and (min-width: 60em){
+	
+}	
+
 .masthead{
 	background-color:;
 }
@@ -33,7 +56,7 @@ h3{
 	color: #006799;
 }
 .unit1{
-background-color: #006799;
+background-image: url("../images/a lady.jpg") ;
 color: white;
 }
 .unit2{
@@ -63,7 +86,15 @@ color: white;
 }
 
 .i--email {
-  background-image: url("../images/e.svg");
+  background-image: url("../images/email.svg");
+  margin-top: 0.25em;
+}
+.i--google{
+	background-image: url("../images/google.svg");
+  margin-top: 0.25em;
+}
+.i--twitter{
+	background-image: url("../images/twitter.svg");
   margin-top: 0.25em;
 }
 
