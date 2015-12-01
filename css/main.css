@@ -1,46 +1,19 @@
-@-moz-viewport { width:device-width; scale: 1;}
-@-ms-viewport { width:device-width; scale: 1;}
-@-o-viewport { width:device-width; scale: 1;}
-@-webkit-viewport { width:device-width; scale: 1;}
-@viewport { width:device-width; scale: 1;}
+
 
 html{
-	box-sizing: border-box;
-	-moz-text-size-adjust:100%;
-	-ms-text-size-adjust:100%;
-	-webtext-text-size-adjust:100%
 	font-family: sans-serif,
+}
 
-*, *::before, *::after{ 
-	box-sizing: inherit;
-}
-body{
-	margin:0;
-	padding:0;
-}
-.flex {
-	display: block;
-	width: 100%;
-}
 .section-dark{
 	background-color: #ccc;
 }
+
 a {
 	color: blue;
 }
-@media only screen and (min-width: 25em){
 
-}
-@media only screen and (min-width: 38em){
-	
-}		
-@media only screen and (min-width: 60em){
-	
-}	
 
-.masthead{
-	background-color:;
-}
+
 .i--logo {
 	background-image: url("../images/logo.png");
 }
@@ -56,8 +29,9 @@ h3{
 	color: #006799;
 }
 .unit1{
-background-image: url("../images/a lady.jpg") ;
-color: white;
+background-image: url("../images/a-lady.jpg");
+background-size: cover;
+
 }
 .unit2{
 	background-color: gray;
@@ -80,10 +54,6 @@ color: white;
   background-image: url("../images/facebook.svg");
   margin: 0.25em 0em 0em 1.4em;
 }
-.i--linkdin {
-  background-image: url("../images/linkdin.svg");
-  margin-top: 0.25em;
-}
 
 .i--email {
   background-image: url("../images/email.svg");
@@ -98,9 +68,7 @@ color: white;
   margin-top: 0.25em;
 }
 
-.logo {
-	height: 2em;
-}
+
 
 
 .contact a,
@@ -108,11 +76,6 @@ color: white;
 	text-decoration: none;
 	list-style: none;
 }
-.sign-up {
-	font-size: 3em;
 
-
-
-}
 
 
