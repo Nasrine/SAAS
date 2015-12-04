@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
 <meta charset="utf-8">
-<title>saas</title>
+<title>Forms</title>
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
 <meta name="viewport" content="width=device-width;initial-scale=1">
@@ -30,3 +30,61 @@
 			</nav>
 	</header>
 </head>
+
+<body>
+<h2 class="account"> Create a new account</h2>
+<a class="sign-up btn tera">Now</a>
+<form action="https://formspree.io/azar0006@algonquinlive.com" methode="post">
+
+<div>
+	<lable for="name" >Name</lable>
+	<input id="name" required>
+</div>
+
+<div>
+	<lable for="email">Email</lable>
+	<input id="email" type="email" name="email" required placeholder="you@yours.com">
+</div>
+
+<div>
+	<lable for= "subject">Subject</lable>
+	<select id= "subject" name="subject">
+		<option></option>
+		<option>I'm looking for a freelancer</option>
+		<option>Let's get a coffee</option>
+		<option>You're awsome</option>
+	</select>	
+</div>
+
+<fieldset>
+	<legend>Method of payment?</legend>
+
+	<input id="visa" type="radio" name="visa">
+	<lable for="visa"> Visa</lable>
+	
+	<input id="sad" type="radio" name="feels">
+	<lable for="sad"> Sad</lable>
+	
+	<input id="tired" type="radio" name="feels">
+	<lable for="tired"> Tired</lable>
+	
+	<input id="supper" type="radio" name="feels">
+	<lable for="supper"> Super</lable>
+	
+	<div>
+		<lable for="message"> Message </lable>
+		<textarea id="message"name="message"></textarea>
+	</div>
+
+	<div>
+		<button type="submit">Send</button>
+	</div>
+</fieldset>
+
+</form>
+
+
+
+</body>
+</head>
+</html>
