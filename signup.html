@@ -17,7 +17,10 @@
 <head>
 
 	<header class="masthead grid grid-middle island-1-2">
-	<img class="logo" src="images/logo.png" alt="">
+	
+	<div class="unit s-1 m-1-3 l-1-3">
+		<img class="img-flex" src="images/logo.png" alt="">
+	</div>
 	
 			<nav class="unit s-1 m-2-3 l-2-3">
 				<ul class="list-group list-group--inline push-0 mega">
@@ -32,59 +35,72 @@
 </head>
 
 <body>
-<h2 class="account"> Create a new account</h2>
-<a class="sign-up btn tera">Now</a>
+<div class="h2 s-1 m-1-3">
+<h2 class="account gutter push"> Create a new account</h2>
+
 <form action="https://formspree.io/azar0006@algonquinlive.com" methode="post">
 
 <div>
-	<lable for="name" >Name</lable>
+	<label for="name" >Name</label>
 	<input id="name" required>
 </div>
 
 <div>
-	<lable for="email">Email</lable>
+	<label for="email">Email</label>
 	<input id="email" type="email" name="email" required placeholder="you@yours.com">
+</div>
+<div>
+	<label for="country"> Country</label>
+	<input id="country" type="country" name="country" required>
 </div>
 
 <div>
-	<lable for= "subject">Subject</lable>
-	<select id= "subject" name="subject">
+	<label for="postal-code"> Postal Code</label>
+	<input id="postal-code" type="postal-code" name="postal-code" required>
+</div>
+
+<div>
+	<label for= "plan-type">Plan Type</label>
+	<select id= "plan-type" name="plan-type">
+
 		<option></option>
-		<option>I'm looking for a freelancer</option>
-		<option>Let's get a coffee</option>
-		<option>You're awsome</option>
+		<option>Home Plan</option>
+		<option>Business Plan</option>
+		
 	</select>	
 </div>
 
 <fieldset>
-	<legend>Method of payment?</legend>
+
+	<legend>Method of payment</legend>
 
 	<input id="visa" type="radio" name="visa">
-	<lable for="visa"> Visa</lable>
+	<label for="visa"> Visa</label>
 	
-	<input id="sad" type="radio" name="feels">
-	<lable for="sad"> Sad</lable>
+	<input id="mastercard" type="radio" name="mastercard">
+	<label for="mastercard"> Master Card</label>
 	
-	<input id="tired" type="radio" name="feels">
-	<lable for="tired"> Tired</lable>
-	
-	<input id="supper" type="radio" name="feels">
-	<lable for="supper"> Super</lable>
+	<input id="paypal" type="radio" name="PayPal">
+	<label for="paypa"> Paypal</label>
+
+	<div>
+	<label for="expiry-date"> Expiry date</label>
+	<input id="expiry-date" type="expiry-date" name="expiry-date" required>
+</div>
+
 
 </fieldset>	
 	
 	<div>
-		<lable for="message"> Message </lable>
+		<label for="message"> Message </label>
 		<textarea id="message"name="message"></textarea>
 	</div>
 
-	<div>
-	</div>
 		<button type="submit">Send</button>	
-		<input type="hidden" name="_next">
-		value="https://file:///Users/nasrine.github.io/forms-demo/thanks.html">
+		<input type="hidden" name="_next" value="https://file:///Users/nasrine.github.io/forms/thanks.html">
+
 </form>
-<h1>Thank You!</h1>
+	<h1>Thank You!</h1>
 </body>
 </head>
 </html>

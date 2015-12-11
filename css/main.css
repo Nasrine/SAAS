@@ -12,64 +12,77 @@ a {
 	color: blue;
 }
 
-
-
 .i--logo {
 	background-image: url("../images/logo.png");
+
 }
+
+.easy{
+	color:white;
+}
+
 p{
 	margin: 0;
 }
+
+h1{
+	color: white;
+	margin:0;
+	padding-top:0;
+}
+
 h2{
 	margin: 0;
 	background-color: #006799;
 	color: white; 
 }
+
 h3{
 	color: #006799;
 }
 .unit1{
 background-image: url("../images/a-lady.jpg");
+padding: 5rem;
 background-size: cover;
+width:100%;
 
 }
 .unit2{
-	background-color: gray;
+	background-color:#999;
+	padding-bottom: 30px
 	
 }
 .unit3{
 	background-color: white;
+	padding-bottom: 30px
 }
-.unit4{
-	background-color: gray;
 
-}
 .light-grey{
 	background: #999;
 }
+
 .grey{
 	background-color: #666;
 }
-.i--facebook {
-  background-image: url("../images/facebook.svg");
-  margin: 0.25em 0em 0em 1.4em;
+
+.btn{
+	color: white;
+	font-size: 1.5rem;
+	padding: 0.25rem 1.5rem 0.25rem 1.5rem;
+	border: 3px solid #006799;
+	background-color: #006799;
+	border-radius: 10px;
+	cursor: pointer;
 }
 
-.i--email {
-  background-image: url("../images/email.svg");
-  margin-top: 0.25em;
-}
-.i--google{
-	background-image: url("../images/google.svg");
-  margin-top: 0.25em;
-}
-.i--twitter{
-	background-image: url("../images/twitter.svg");
-  margin-top: 0.25em;
+label{
+	cursor: pointer;
+	display: block;
 }
 
-
-
+input + label{
+	display: inline;
+}
 
 .contact a,
 .contact li {
@@ -77,5 +90,14 @@ background-size: cover;
 	list-style: none;
 }
 
+@media only screen and (min-width: 609px) {
+
+	.unit1{
+	background-image: url("../images/a-lady.jpg");
+	padding: 5rem;
+	background-size: cover;
+	width:66.6%;
+
+}
 
 
