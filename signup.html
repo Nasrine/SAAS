@@ -7,7 +7,7 @@
 <meta name="mobileoptimized" content="240">
 <meta name="viewport" content="width=device-width;initial-scale=1">
 <link href="css/module.css" rel="stylesheet">
-<link href="css/grid.css" rel="stylesheet">
+<link href="css/grids.css" rel="stylesheet">
 <link href="css/type.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
 
@@ -16,7 +16,8 @@
 
 <head>
 
-	<header class="masthead grid grid-middle island-1-2">
+	<header class="masthead section-dark grid section-dark grid-bottom island-1-2....">
+
 	
 	<div class="unit s-1 m-1-3 l-1-3">
 		<img class="img-flex" src="images/logo.png" alt="">
@@ -35,72 +36,126 @@
 </head>
 
 <body>
-<div class="h2 s-1 m-1-3">
-<h2 class="account gutter push"> Create a new account</h2>
-
 <form action="https://formspree.io/azar0006@algonquinlive.com" methode="post">
+	<div class="grid grid-stretch">
+	<div class="unit s-1 m-1-2 l-1-2 gutter pad-b">
 
-<div>
-	<label for="name" >Name</label>
-	<input id="name" required>
-</div>
+		<div class="peta pad-top-half push">
+			<p class="account">Credit card information</p>
+		</div>
+			
 
-<div>
-	<label for="email">Email</label>
-	<input id="email" type="email" name="email" required placeholder="you@yours.com">
-</div>
-<div>
-	<label for="country"> Country</label>
-	<input id="country" type="country" name="country" required>
-</div>
-
-<div>
-	<label for="postal-code"> Postal Code</label>
-	<input id="postal-code" type="postal-code" name="postal-code" required>
-</div>
-
-<div>
-	<label for= "plan-type">Plan Type</label>
-	<select id= "plan-type" name="plan-type">
-
-		<option></option>
-		<option>Home Plan</option>
-		<option>Business Plan</option>
-		
-	</select>	
-</div>
-
-<fieldset>
-
-	<legend>Method of payment</legend>
-
-	<input id="visa" type="radio" name="visa">
-	<label for="visa"> Visa</label>
-	
-	<input id="mastercard" type="radio" name="mastercard">
-	<label for="mastercard"> Master Card</label>
-	
-	<input id="paypal" type="radio" name="PayPal">
-	<label for="paypa"> Paypal</label>
+		<div>
+			<label for= "plan-type">Plan Type</label>
+			<select id= "plan-type" name="plan-type">
+				<option></option>
+				<option>Home Plan</option>
+				<option>Business Plan</option>
+			</select>	
+		</div>
 
 	<div>
-	<label for="expiry-date"> Expiry date</label>
-	<input id="expiry-date" type="expiry-date" name="expiry-date" required>
-</div>
-
-
-</fieldset>	
-	
-	<div>
-		<label for="message"> Message </label>
-		<textarea id="message"name="message"></textarea>
+		<label for="name" >Card holder's Name</label>
+		<input id="name" required>
 	</div>
 
-		<button type="submit">Send</button>	
-		<input type="hidden" name="_next" value="https://file:///Users/nasrine.github.io/forms/thanks.html">
+	<fieldset>
+		<legend>Method of payment</legend>
 
+		<input id="visa" type="radio" name="visa">
+		<label for="visa"> Visa</label>
+		<input id="mastercard" type="radio" name="mastercard">
+		<label for="mastercard"> Master Card</label>
+		<input id="paypal" type="radio" name="PayPal">
+		<label for="paypa"> Paypal</label>
+	</fieldset>	
+
+	<div>
+		<label for="expiry-date"> Expiry date</label>
+		<input id="expiry-date" type="expiry-date" name="expiry-date" required>
+	</div>
+	<div>
+		<label for="code">CVV/CVC Code</label>
+		<input id="code" required>
+	</div>
+		<div class="push pad-top-half">
+		<a class="send btn tera ">Send</a>
+		</div>
+		<div class="mega">
+			<input type="hidden" name="_next" value="https://file:///Users/nasrine.github.io/forms/thanks.html">
+		</div>
+	</div>
+	<div class="unit s-1 m-1-2 l-1-2 grey gutter">		
+
+		<div class="peta pad-top-half push">
+		<p>Create an account</p>
+		</div>
+
+		<div>
+			<label for="choose-a-user-name"> Choose a user name</label>
+			<input id="choose-a-user-name" type="choose-a-user-name" name="choose-a-user-name" required>
+		</div>
+
+		<div>
+			<label for="enter-your-email"> Enter your email</label>
+			<input id="email" type="email" name="email" required placeholder="you@yours.com">
+		</div>
+		<div>
+			<label for="password">Create  a password</label>
+			<input id="password"name="password">
+		</div>
+		<div>
+			<label for="re-enter">Re-enter password</label>
+			<input id="re-enter"name="re-enter">
+		</div>
+
+		<div class="push pad-top-half">
+			<a class="submit btn tera">Submit</a>
+			<input type="hidden" name="_next" value="https://file:///Users/nasrine.github.io/forms/thanks.html">
+		</div>	
+		<p class="thank "> Thank you!</p>
+	</div>
+</div>	
 </form>
-	<h1>Thank You!</h1>
+<div class="grid">
+<div class="unit xs-1 s-1">
+				<h2 class="contact pad-top-half pad-bottom-half gutter push"> Contact</h2>
+				<ul class="contact list-group gutter" > 
+					<li><a href="www">www.fundfriendfinancial.com</a></li>
+				    <li><a href="address">1385 Woodroffe Ave, Ottawa, ON K2G 1V8</a></li>
+				    <li><a href="tel">(613)727-4723</a></li>
+			  	</ul>
+			</div>
+
+	 		<div class="unit xs-1 s-1 ">
+	 			<h2 class="connect pad-top-half pad-bottom-half gutter push">Connect</h2>
+	 		</div>
+
+	 		<div class="unit xs-1 gutter pad-bottom-half">
+			    <a class="icon-link" href="https://facebook.com/">
+			    <img class="icon i--32" src="images/bluefacebook.svg">
+	  			<span class="icon-label visually-hidden">Facebook</span>
+			    </a> 
+			    <a class="icon-link" href="https://linkdin.com/">
+			    <img class="icon i--32" src="images/bluelinkdin.svg">
+	  			<span class="icon-label visually-hidden">Linkdin</span>
+			    </a>
+			    <a class="icon-link" href="mailto:nasrinstudio@gmail.com">
+			    <img class="icon i--32" src="images/blueemail.svg">
+	  			<span class="icon-label visually-hidden">email</span>
+			    </a>
+
+				<a class="icon-link" href="https://twitter.com">
+			    <img class="icon i--32" src="images/bluetwitter.svg">
+	  			<span class="icon-label visually-hidden">Twitter</span>
+			    </a>
+			</div>
+</div>
+
+</main>
+<footer>
+	<aside>Copyright©2015 Nasrin Azarnoush. All rights reserved.</aside>
+</footer>	
 </body>
-</head>
+
 </html>

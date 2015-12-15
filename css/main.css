@@ -9,7 +9,7 @@ html{
 }
 
 a {
-	color: blue;
+	color: #006799;
 }
 
 .i--logo {
@@ -42,9 +42,11 @@ h3{
 }
 .unit1{
 background-image: url("../images/a-lady.jpg");
-padding: 5rem;
+padding-top: 1rem;
+padding-bottom: 5rem;
 background-size: cover;
 width:100%;
+background-position:center bottom;
 
 }
 .unit2{
@@ -62,7 +64,7 @@ width:100%;
 }
 
 .grey{
-	background-color: #666;
+	background-color: #ccc;
 }
 
 .btn{
@@ -89,14 +91,19 @@ input + label{
 	text-decoration: none;
 	list-style: none;
 }
+footer{
+	background-color: #ccc;
+
+}
+.account{
+	color: #006799;
+}
 
 @media only screen and (min-width: 609px) {
 
 	.unit1{
-	background-image: url("../images/a-lady.jpg");
-	padding: 5rem;
-	background-size: cover;
-	width:66.6%;
+		width:66.6%;
+	}
 
 }
 
